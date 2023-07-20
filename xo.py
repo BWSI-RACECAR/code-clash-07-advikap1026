@@ -11,8 +11,8 @@ class Solution:
                      continue
                 elif i == "O":
                      numO = numO+1
-                elif i == "Y":
-                    numY = numY +1 
+                elif i == "X":
+                    numX = numX +1 
             
             if numX == numO:
                  return True
