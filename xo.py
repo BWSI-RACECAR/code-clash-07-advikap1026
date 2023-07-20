@@ -6,12 +6,12 @@ class Solution:
             #TODO: Write code below to returnn a boolean value with the solution to the prompt.
             numX = 0
             numO = 0 
-            for letter in string: 
-                if string[letter] == "o" or string[letter] == "x":
+            for i in string: 
+                if i == "o" or i == "x":
                      continue
-                elif string[letter] == "O":
+                elif i == "O":
                      numO = numO+1
-                elif string[letter] == "Y":
+                elif i == "Y":
                     numY = numY +1 
             
             if numX == numY:
