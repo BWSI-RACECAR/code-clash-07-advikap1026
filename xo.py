@@ -7,7 +7,7 @@ class Solution:
             numX = 0
             numO = 0 
             for i in string: 
-                if i.isLower():
+                if i.islower():
                      continue
                 elif i == "O":
                      numO = numO+1
