@@ -14,7 +14,7 @@ class Solution:
                 elif i == "Y":
                     numY = numY +1 
             
-            if numX == numY:
+            if numX == numO:
                  return True
             else:
                  return False
